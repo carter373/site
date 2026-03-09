@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0f19;
+    color: white;
+}
+
+.container{
+    width: 90%;
+    max-width:900px;
+    margin: auto;
+}
+
+header{
+    background:#111;
+    padding:10px 0;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    margin-left:10px;
+    text-decoration:none;
+}
+
+section{
+    background:#1a1f2e;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+.buttons a{
+    display:inline-block;
+    background:#7c5cff;
+    padding:8px 12px;
+    border-radius:6px;
+    margin-right:5px;
+}
+
+.skills .bar{
+    background:#333;
+    height:10px;
+    border-radius:5px;
+}
+
+.skills .fill{
+    background:#7c5cff;
+    height:10px;
+}
+.skills {
+    text-align:center;
+}
